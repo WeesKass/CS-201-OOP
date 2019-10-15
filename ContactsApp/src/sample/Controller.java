@@ -44,7 +44,6 @@ public class Controller {
 
     @FXML
     private void initialize() {
-        System.out.println("pidor");
         contacts.add(new ContactsInfo("Amanda", "Watson", "amanda@gmail.com", "+996(534)32-21-22","Bishkek, 3, 15", "03.10.98", "sample/images/amanda_watson.jpg"));
         contacts.add(new ContactsInfo("Doe", "Chester", "chester12@gmail.com", "+996(122)12-12-12","Bishkek, 12, 12", "12.12.92", "sample/images/doe_chester.jpg"));
         contacts.add(new ContactsInfo("John", "Doe", "john.doe@gmail.com", "+996(545)12-54-32","Bishkek, 10, 25", "25.10.88", "sample/images/john_doe.jpeg"));
